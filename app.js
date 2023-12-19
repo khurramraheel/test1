@@ -1,7 +1,7 @@
 let User =  require('./db/models/user');
 let mongoose = require('mongoose');
 
-mongoose.connect('mongodb://localhost:27017/abcDB').then((connection)=>{
+mongoose.connect('mongodb+srv://ali:1234@cluster0.xht8ahs.mongodb.net/').then((connection)=>{
     console.log(connection)
 }).catch((err)=>{
     console.log(err)
